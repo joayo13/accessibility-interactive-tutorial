@@ -5,9 +5,19 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Web Accessibility Interactive Tutorial</title>
 	</head>
 	<body>
+		<header class="h-16 bg-blue-500 text-white fixed top-0 w-full flex items-center p-4">
+			<p>Web Accessibility Interactive Tutorial</p>
+		</header>
+		<nav class="fixed flex flex-col gap-8 left-0 top-16 bg-gray-300 w-fit p-8 h-full">
+			<a>Lesson 0: Introduction</a>
+			<a>Lesson 1: Keyboard </a>
+			<a>Lesson 0: Introduction</a>
+			<a>Lesson 0: Introduction</a>
+			<a>Lesson 0: Introduction</a>
+		</nav>
 		<slot />
 	</body>
 </html>
